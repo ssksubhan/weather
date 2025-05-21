@@ -7,24 +7,48 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+ 
+
 }
 .container{
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 400px;
     height: min-content;
     background-color: #fff;
     border-radius: 12px;
-    padding: 28px;
+    padding: 30px;
+    border: 1px solid;
 
 }
-.search_box{
+.container img{
     width: 100%;
-    height: min-content;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+h1{
+    font-size:45px;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    
+
+
+}
+.weather-card{
+padding-top: 20px;
+    width: 100%;
+    height: 100px;;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.search_box input{
+.weather-card input{
     width: 84%;
     font-size: 20px;
     text-transform: capitalize ;
@@ -35,44 +59,27 @@ body{
 
 
 }
-.search_box button{
+.weather-card button{
     width: 50px;
     height: 50px;
     background-color: #fff;
     border-radius: 50%;
 
 }
-.weather_body{
+
+.result{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-block:20px ;
+    color: #fff;
+   display: flex;
+  
 }
-.weather_body img{
-    width: 50%;
+ .result img{
+    width: 40%;
+  
 
 }
-.weather_box{
-    margin-block:20px ;
-    text-align: center;
-}
-.weather_box .temperature{
-    font-size: 40px;
-    font-weight: 800;
-    position: relative;
-
-}
-weather_box .temperature sub{
-    font-size: 2opx;
-    position: absolute;
-    font-weight: 600;
-}
-.weather_details{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-}
-
 
